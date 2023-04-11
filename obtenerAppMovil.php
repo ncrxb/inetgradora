@@ -23,7 +23,7 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col p-3 bg-dark text-white text-center">
-            <a class="nav-link active" href="home.php"><small>Home</small></a>
+            <a class="nav-link active" href="index.php"><small>Home</small></a>
         </div>
         <div class="col p-3 bg-dark text-white text-center">
             <a class="nav-link" href="obtenerAppMovil.php"><small><dt>Obtener la App movil</dt></small></a>
