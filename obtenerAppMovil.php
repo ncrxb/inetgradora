@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-  <link rel="stylesheet" href="imagenfondo.css">
 </head>
 <body>
 
@@ -17,17 +16,17 @@
         <h2 class="text-white"><small><dt>C.A.S.E</dt></small></h2>
       </li>
     </ul>
-    <img src="logo-skydevs.png" class="float-end" alt="Paris" width="150" height="60"> 
+    <img src="logo-skydevs.png" class="float-end" alt="skydevs" width="150" height="60"> 
   </div>
 </nav>
 
 <div class="container-fluid">
     <div class="row">
         <div class="col p-3 bg-dark text-white text-center">
-            <a class="nav-link active" href="index.php"><small><dt>Home</dt></small></a>
+            <a class="nav-link active" href="home.php"><small>Home</small></a>
         </div>
         <div class="col p-3 bg-dark text-white text-center">
-            <a class="nav-link" href="obtenerAppMovil.php"><small>Obtener la App movil</small></a>
+            <a class="nav-link" href="obtenerAppMovil.php"><small><dt>Obtener la App movil</dt></small></a>
         </div>
         <div class="col p-3 bg-dark text-white text-center">
             <a class="nav-link" href="contacto.php"><small>Contacto</small></a>
@@ -35,18 +34,23 @@
     </div>
 </div>
 
+
 <div class="container-fluid">
-  <div class="mt-4 p-5 text-white">
-    <h1 class="text-center"><small><dt>¿Que es C.A.S.E?</dt></small></h1>
-    <h5 class="text-center">El sistema C.A.S.E es un checador automatico de seguridad para escuelas, se busca</h5>
-    <h5 class="text-center">mejorar la gestion de entrada y salida de los alumnos de educacion preescolar y basico,</h5>
-    <h5 class="text-center">todo eso mediante el uso de un escaner el cual detecta de un codigo QR proporcionando</h5>
-    <h5 class="text-center">aleatoriamente por la aplicacion movil.</h5>
+  <div class="mt-4 p-5 text-black">
+    <h1 class="text-center">C.A.S.E Mobile</h1> 
+    <h5 class="text-center">La aplicacion C.A.S.E mobile le permite al padre o tutor controlar</h5>
+    <h5 class="text-center">la entrada y salida de alumnos, con una interfaz amigable y sencilla.</h5>
+    <br>
+    <br>
+    <br>
+    <h5 class="text-center">La aplicacion esta disponible para iOS y Android.</h5>
+    <br>
+    <a class="nav-link" href="#"><img src="playstore.png" class="mx-auto d-block" alt="playstore"></a>
+    <a class="nav-link" href="#"><img src="apple.png" class="mx-auto d-block" alt="applestore" width="646px" height="250px"></a>
 
 
   </div>
 </div>
-
 
 
 </body>
